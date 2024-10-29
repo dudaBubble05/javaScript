@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0e0e66;
+}
+
+header {
+    background-color: #ddd;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+}
+
+nav a {
+    color: #555;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
